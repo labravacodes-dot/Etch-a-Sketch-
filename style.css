@@ -28,6 +28,22 @@ body {
   box-sizing: border-box;
   border: 1px solid #f0f0f0;
 }
+
 .grid-square.active {
   background-color: #111111;
+}
+
+/* Dialogue Box & Flavor Text Styling */
+.dialogue-box p {
+  color: #a0a0a0;
+  font-style: italic;
+  font-size: 0.9rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.dialogue-box strong {
+  color: #e0e0e0;
+  font-style: normal;
 }

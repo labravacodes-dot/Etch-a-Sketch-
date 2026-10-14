@@ -25,3 +25,10 @@ createGrid(16);
 square.addEventListener("mouseenter", () => {
   square.style.backgroundColor = "#111111"; // Or square.classList.add("active");
 });
+square.addEventListener('mouseover', () => {
+    const randomR = Math.floor(Math.random() * 256);
+    const randomG = Math.floor(Math.random() * 256);
+    const randomB = Math.floor(Math.random() * 256);
+
+    square.style.backgroundColor = `rgb(${randomR}, ${randomG}, ${randomB})`;
+});
