@@ -1,0 +1,33 @@
+body {
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#sketch-container {
+  width: 500px;
+  height: 500px;
+  background: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  border: 4px solid #333;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.grid-square {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border: 1px solid #f0f0f0;
+}
+.grid-square.active {
+  background-color: #111111;
+}
